@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "getbalance"
+version = "0.1.0"
+description = ""
+authors = ["mrmamongo <mrmamongo@engee.cloud>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+adaptix = "^3.0.0a4"
+aiohttp = "^3.8.4"
+pyzmq = "^25.1.0"
+orjson = "^3.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
